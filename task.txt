@@ -1,0 +1,40 @@
+New Task
+
+User Account Creating
+https:/www.facebook.com/create   POST
+{ 
+   "userId":"abcd",
+   "password":"111"
+}
+//Account Will be Created
+
+Follow Another User
+https:/www.facebook.com/follow   POST
+{
+  "userId":"abcd",
+  "otherUserid":"xxxx"
+}
+
+posting a new picture(Post)
+https:/www.facebook.com/post   POST
+{
+  "userId":"abcd",
+  "picture":"one.png"
+}
+likes
+https:/www.facebook.com/like   POST
+{
+    "userID" : "" 
+}
+Friend another user
+https:/www.facebook.com/friend   POST
+{
+    "userID" : "" ,
+	"frienduserId":""
+}
+UnFriend another user
+https:/www.facebook.com/unfriend   POST
+{
+    "userID" : "" ,
+	"UnfrienduserId":""
+}
